@@ -12,8 +12,10 @@ public class ViewController {
 	
 	@FXML
 	public void onButtonAction() {
-//		Alerts.showAlert("Alert title", "Alert header", "Hello", AlertType.INFORMATION);
-		Alerts.showAlert("Alert title", null, "Hello", AlertType.ERROR);
+		Alerts.showAlert("Alert title", "Alert header", "Hello", AlertType.INFORMATION);
+//		Alerts.showAlert("Alert title", null, "Hello", AlertType.ERROR);
+//		Alerts.showAlert("Alert title", null, "Hello", AlertType.CONFIRMATION);
+//		Alerts.showAlert("Alert title", null, "Hello", AlertType.WARNING);
 	}
 	
 }
